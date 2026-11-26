@@ -1,0 +1,19 @@
+# Imzolash kalitlari HECH QACHON repoga tushmasligi kerak
+keys/
+*.pk8
+*.pem
+*.x509.pem
+*.keystore
+*.jks
+id_ed25519*
+avb_pkmd.bin
+
+# Ilova APK fayllari (katta binar fayllar) — alohida xavfsiz joyda saqlanadi
+vendor/korxona/prebuilt/apps/*.apk
+
+# Generator natijalari
+vendor/korxona/Android.bp
+vendor/korxona/korxona_apps.mk
+vendor/korxona/permissions/
+
+__pycache__/

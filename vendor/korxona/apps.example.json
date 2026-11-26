@@ -1,0 +1,17 @@
+[
+  {
+    "name": "KorxonaMessenger",
+    "apk": "KorxonaMessenger.apk",
+    "privileged": false
+  },
+  {
+    "name": "KorxonaMDM",
+    "apk": "KorxonaMDM.apk",
+    "privileged": true,
+    "package": "uz.korxona.mdm",
+    "privapp_permissions": [
+      "android.permission.MANAGE_USERS",
+      "android.permission.INSTALL_PACKAGES"
+    ]
+  }
+]
